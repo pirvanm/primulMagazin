@@ -1,1 +1,14 @@
-#1 redenumeste fisierul env in .env
+#0 git clone  https://github.com/pirvanm/primulMagazin
+pentru a folosi proiectul  descarca automat
+
+git comanda
+clone - ceea ce face 
+#1 
+redenumeste fisierul env in .env
+
+#2 ruleaza :
+
+php artisan serve 
+
+#3 deschide un nou tab doar pentru comenzi
+
