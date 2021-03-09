@@ -25,3 +25,8 @@ Route::get(
     '/rutaController',
     'PrimulMeuController@index'
 );
+
+Route::get(
+    '/preiaUtilizator',
+    'PrimulMeuController@getUser'
+);
