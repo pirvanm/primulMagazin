@@ -19,3 +19,9 @@ Route::get('/', function () {
 Route::get('/prima', function () {
     return 'prima ruta';
 });
+
+
+Route::get(
+    '/rutaController',
+    'PrimulMeuController@index'
+);
