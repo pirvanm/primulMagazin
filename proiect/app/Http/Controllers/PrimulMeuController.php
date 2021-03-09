@@ -15,6 +15,10 @@ class PrimulMeuController extends Controller
 
     public function getHTML()
     {
+        // metoda care care incarca view-ul , sea  fla in folderul
+        // resources /view / folderul create de mine
+        // resources/view/ user / fisierul pus la final
+        // reroueces /view /user/index.blade.php 
         return view('user.index');
     }
 
