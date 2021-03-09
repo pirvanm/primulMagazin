@@ -31,7 +31,8 @@ Route::get(
     'PrimulMeuController@getUser'
 );
 
+
 Route::get(
-    '/html',
+    '/html2',
     'PrimulMeuController@getHTML'
 );
