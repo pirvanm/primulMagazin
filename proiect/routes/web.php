@@ -30,3 +30,8 @@ Route::get(
     '/preiaUtilizator',
     'PrimulMeuController@getUser'
 );
+
+Route::get(
+    '/html',
+    'PrimulMeuController@getHTML'
+);

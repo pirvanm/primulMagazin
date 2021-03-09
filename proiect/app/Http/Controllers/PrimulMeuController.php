@@ -9,7 +9,13 @@ class PrimulMeuController extends Controller
 {
     public function index()
     {
+
         return 'metoda din controler';
+    }
+
+    public function getHTML()
+    {
+        return view('user.index');
     }
 
     public function getUser()
