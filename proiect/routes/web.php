@@ -21,18 +21,28 @@ Route::get('/prima', function () {
 });
 
 
+Route::get('/d', function () {
+    return 'prima ruta';
+});
+
+Route::get(
+    '/data',
+    'PrimulMeuController@getData'
+);
+
+
 Route::get(
     '/rutaController',
     'PrimulMeuController@index'
 );
 
-Route::get(
-    '/preiaUtilizator',
-    'PrimulMeuController@getUser'
-);
+// Route::get(
+//     '/preiaUtilizator',
+//     'PrimulMeuController@getUser'
+// );
 
 
-Route::get(
-    '/html2',
-    'PrimulMeuController@getHTML'
-);
+// Route::get(
+//     '/html2',
+//     'PrimulMeuController@getHTML'
+// );
